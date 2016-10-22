@@ -3,9 +3,13 @@ package org.concision4j;
 import java.util.ResourceBundle;
 
 import org.apache.commons.lang3.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
+/**
+ * @author Dongdong.Su
+ * 
+ * @email 13233054232@163.com
+ * 2016-10-22 下午4:01:52
+ */
 public final class ConfigUtil {
 	public static ResourceBundle  resourceBundle = ResourceBundle.getBundle(ConfigConstant.CONFIG_FILE);
 	

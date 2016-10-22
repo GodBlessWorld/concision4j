@@ -1,5 +1,11 @@
 package org.concision4j;
 
+/**
+ * @author Dongdong.Su
+ * 
+ * @email 13233054232@163.com
+ * 2016-10-22 下午4:01:52
+ */
 public class ConfigConstant {
 	public static final String CONFIG_FILE = "concision4j";
 	
