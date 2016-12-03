@@ -1,5 +1,8 @@
 package org.concision4j;
 
+import org.concision4j.constants.ConfigConstant;
+import org.concision4j.utils.ConfigUtil;
+
 /**
  * @author Dongdong.Su
  * 

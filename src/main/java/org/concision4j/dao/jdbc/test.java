@@ -6,6 +6,8 @@ import java.sql.SQLException;
 
 import org.concision4j.ConfigManager;
 
+import cn.jadepool.sql.Jade;
+
 public class test {
 	static {
 		try {
@@ -20,5 +22,7 @@ public class test {
 	public static Connection getConnection() throws SQLException{
 		return DriverManager.getConnection(ConfigManager.getJDBCUrl(),ConfigManager.getJDBCUsername(),ConfigManager.getJDBCPassword());
 	}
+	
+	
 	
 }

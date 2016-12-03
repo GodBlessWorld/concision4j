@@ -1,8 +1,9 @@
-package org.concision4j;
+package org.concision4j.utils;
 
 import java.util.ResourceBundle;
 
 import org.apache.commons.lang3.StringUtils;
+import org.concision4j.constants.ConfigConstant;
 
 /**
  * @author Dongdong.Su

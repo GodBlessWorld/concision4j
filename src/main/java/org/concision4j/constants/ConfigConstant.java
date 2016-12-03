@@ -1,4 +1,4 @@
-package org.concision4j;
+package org.concision4j.constants;
 
 /**
  * @author Dongdong.Su

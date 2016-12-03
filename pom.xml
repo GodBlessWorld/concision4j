@@ -106,6 +106,13 @@
         <artifactId>commons-collections4</artifactId>
         <version>4.0</version>
     </dependency>
+    
+        <!-- shiro -->
+    <dependency>
+        <groupId>org.apache.shiro</groupId>
+        <artifactId>shiro-core</artifactId>
+        <version>1.2.3</version>
+    </dependency>
   </dependencies>
   <build/>
 </project>
