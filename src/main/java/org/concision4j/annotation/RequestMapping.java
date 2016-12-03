@@ -14,7 +14,7 @@ import java.lang.annotation.Target;
  * @email 13233054232@163.com
  * 2016-10-22 下午5:22:20
  */
-@Target(ElementType.TYPE)
+@Target(value={ElementType.TYPE,ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 public @interface RequestMapping {
 	/**
@@ -22,4 +22,6 @@ public @interface RequestMapping {
 	 * @return
 	 */
 	String value();
+	
+	String method();
 }

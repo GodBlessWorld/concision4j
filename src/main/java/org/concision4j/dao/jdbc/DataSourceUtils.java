@@ -7,7 +7,7 @@ import java.util.Map;
 
 import javax.sql.DataSource;
 
-import org.concision4j.ConfigManager;
+import org.concision4j.core.ConfigManager;
 
 import com.mchange.v2.c3p0.DataSources;
 
